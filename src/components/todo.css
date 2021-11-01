@@ -1,0 +1,75 @@
+.header{
+    background: linear-gradient(to right, #ff105f,#ffad06);
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family:  sans-serif;
+    color: rgb(13, 13, 211);
+}
+input{
+    width: 65%;
+    border: 0px;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    margin: 5px;
+    background: linear-gradient(to right, #a1365a,#070500);
+}
+input:hover{
+    border: blueviolet solid 2px;
+}
+
+li{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    margin: 5px;
+}
+.btn-1{
+    float: right;
+    margin-right: 40px;
+    background-color: rgb(48, 245, 9);
+    border: none;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+}
+.btn-1:hover{
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    color: chartreuse;
+    border: darkblue solid 2px;
+    border-radius: 5%;
+}
+.btn-2{
+    padding: 5px;
+    margin-left: 50px;
+    width: 70px;
+    color: rgb(241, 173, 1);
+    background-color: rgb(155, 6, 255);
+    border: none;
+}
+.div{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, #ff1010,#ff06b4,#10c7ff,#3c06ff,black,#ff0606,#33ff00,#06cdff);
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+@media (prefers-reduced-motion: no-preference) {
+    .div {
+      animation: div-spin infinite 1s linear;
+    }
+  }
+  @keyframes div-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
